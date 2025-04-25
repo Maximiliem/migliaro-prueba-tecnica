@@ -106,6 +106,6 @@ pip install pandas xlsxwriter
 
 Este proyecto fue desarrollado por **Maximiliano Bertta Borges** como parte de la prueba técnica para **Migliaro**.
 
-📬 *¿Preguntas o sugerencias? No dudes en contactarme.*
+📬 *¿Preguntas o sugerencias? No dudes en contactarme. maxibertta@gmail.com*
 
 ---
