@@ -21,10 +21,10 @@ Este proyecto procesa el archivo Excel **`Balancete Maxi Bertta.xlsx`**, realiza
 El proyecto analiza un archivo Excel que contiene información sobre:
 
 - Saldos deudores y acreedores
-- En moneda nacional (M/N) y dólares (U$S)
-- Agrupados por **rubros** y **categorías** (ej: Ingresos, Gastos Ganaderos, Gastos Agrícolas, etc.)
+- Moneda nacional (M/N) y dólares (U$S)
+- Agrupaciones por **rubros** y **categorías** (ej: Ingresos, Gastos Ganaderos, Gastos Agrícolas, etc.)
 
-### 📌 Qué se genera:
+### 📌 Qué se genera?:
 - Totales de saldos por categoría
 - Listado ordenado de ítems por impacto financiero
 
@@ -32,7 +32,7 @@ Esto permite **identificar rápidamente** los rubros más importantes y **facili
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Estructura del Proyecto:
 
 ```
 migliaro-prueba-tecnica/
