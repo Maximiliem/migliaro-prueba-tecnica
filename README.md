@@ -1,97 +1,111 @@
-nforme Prueba Técnica Migliaro 
 
-Este proyecto procesa el archivo Excel "Balancete Maxi Bertta.xlsx", realiza un análisis financiero detallado y genera tableros/tablas organizados por tipo de gasto. El objetivo es facilitar la interpretación de los datos para los contadores y otros usuarios. 
-📋 Contenido 
+# 📊 Informe Prueba Técnica Migliaro
 
-    Descripción del Proyecto 
-    Estructura del Proyecto 
-    Instrucciones de Uso 
-    Resultados Generados 
-    Requisitos y Dependencias 
-     
+Este proyecto procesa el archivo Excel **`Balancete Maxi Bertta.xlsx`**, realiza un análisis financiero detallado y genera tableros/tablas organizados por tipo de gasto. El objetivo es facilitar la interpretación de los datos para contadores y otros usuarios.
 
-1. Descripción del Proyecto 
+---
 
-El proyecto analiza un archivo Excel que contiene información sobre saldos deudores y acreedores en moneda nacional y dólares, agrupados por rubros y categorías (ej: ingresos, gastos ganaderos, gastos agrícolas, etc.).  
+## 📋 Contenido
 
-Se generan tableros/tablas para cada tipo de gasto, mostrando: 
+- [📝 Descripción del Proyecto](#-descripción-del-proyecto)
+- [📁 Estructura del Proyecto](#-estructura-del-proyecto)
+- [⚙️ Instrucciones de Uso](#️-instrucciones-de-uso)
+- [📈 Resultados Generados](#-resultados-generados)
+- [🧰 Requisitos y Dependencias](#-requisitos-y-dependencias)
+- [🙌 Créditos](#-créditos)
 
-    Totales de saldos deudores y acreedores en moneda nacional y dólares.
-    Listado de ítems dentro de cada tipo de gasto, ordenados de mayor a menor según el saldo más relevante (deudor o acreedor).
-     
+---
 
-Esto permite identificar rápidamente los rubros más importantes y facilita la toma de decisiones. 
-2. Estructura del Proyecto 
+## 📝 Descripción del Proyecto
 
-El proyecto está organizado en los siguientes archivos y carpetas: 
+El proyecto analiza un archivo Excel que contiene información sobre:
+
+- Saldos deudores y acreedores
+- En moneda nacional (M/N) y dólares (U$S)
+- Agrupados por **rubros** y **categorías** (ej: Ingresos, Gastos Ganaderos, Gastos Agrícolas, etc.)
+
+### 📌 Qué se genera:
+- Totales de saldos por categoría
+- Listado ordenado de ítems por impacto financiero
+
+Esto permite **identificar rápidamente** los rubros más importantes y **facilita la toma de decisiones contables**.
+
+---
+
+## 📁 Estructura del Proyecto
+
+```
 migliaro-prueba-tecnica/
 │
-├── app.py               # Script principal: Orquesta todo el proceso.
-├── analisis.py          # Funciones para procesar y analizar los datos.
-├── tableros.py          # Funciones para generar tableros/tablas.
-├── data/                # Carpeta para datos de entrada y salida.
-│   ├── Balancete Maxi Bertta.xlsx  # Archivo Excel original.
-│   └── Tableros_por_Tipo_Gasto.xlsx  # Resultado procesado.
-└── README.md            # Documentación del proyecto.
+├── app.py                         # Script principal: orquesta todo el proceso.
+├── analisis.py                    # Funciones para procesar y analizar los datos.
+├── tableros.py                    # Funciones para generar tableros/tablas.
+├── data/                          # Carpeta para datos de entrada y salida.
+│   ├── Balancete Maxi Bertta.xlsx       # Archivo Excel original.
+│   └── Tableros_por_Tipo_Gasto.xlsx     # Resultado procesado.
+└── README.md                      # Documentación del proyecto.
+```
 
-migliaro-prueba-tecnica/
-│
-├── app.py               # Script principal: Orquesta todo el proceso.
-├── analisis.py          # Funciones para procesar y analizar los datos.
-├── tableros.py          # Funciones para generar tableros/tablas.
-├── data/                # Carpeta para datos de entrada y salida.
-│   ├── Balancete Maxi Bertta.xlsx  # Archivo Excel original.
-│   └── Tableros_por_Tipo_Gasto.xlsx  # Resultado procesado.
-└── README.md            # Documentación del proyecto.
- 
- 
-3. Instrucciones de Uso 
-Paso 1: Instalar dependencias  
+---
 
-Antes de ejecutar el proyecto, asegúrate de instalar las dependencias necesarias. Ejecuta el siguiente comando: 
+## ⚙️ Instrucciones de Uso
+
+### 🔧 Paso 1: Instalar dependencias
+
+```bash
 pip install pandas xlsxwriter
-
-Si prefieres usar openpyxl en lugar de xlsxwriter, puedes instalarlo con:
+# o alternativamente:
 pip install pandas openpyxl
+```
 
-Paso 2: Colocar el archivo Excel  
+### 📥 Paso 2: Colocar el archivo Excel
 
-Coloca el archivo Balancete Maxi Bertta.xlsx en la carpeta data/. 
-Paso 3: Ejecutar el script  
+Guarda el archivo `Balancete Maxi Bertta.xlsx` en la carpeta `/data`.
 
-Ejecuta el script principal con el siguiente comando: 
+### 🚀 Paso 3: Ejecutar el script
+
+```bash
 python app.py
+```
 
-Esto generará un archivo Excel llamado Tableros_por_Tipo_Gasto.xlsx en la carpeta data/. 
-4. Resultados Generados 
+Esto generará un archivo Excel llamado `Tableros_por_Tipo_Gasto.xlsx` dentro de la carpeta `/data`.
 
-El archivo generado (Tableros_por_Tipo_Gasto.xlsx) contiene una hoja por tipo de gasto, con dos secciones: 
+---
 
-    Totales : 
-        Resumen de saldos deudores y acreedores en moneda nacional y dólares.
-         
+## 📈 Resultados Generados
 
-    Ítems : 
-        Listado de todos los ítems dentro de ese tipo de gasto, ordenados de mayor a menor según el saldo más relevante (deudor o acreedor).
-         
-     
+El archivo `Tableros_por_Tipo_Gasto.xlsx` contiene:
 
-5. Requisitos y Dependencias 
-Requisitos  
+- 🧮 **Totales**:
+  - Resumen de saldos deudores y acreedores (M/N y U$S)
 
-    Python 3.6 o superior.
-    Las siguientes librerías instaladas:
-        pandas
-        xlsxwriter (o openpyxl si prefieres usar otro motor).
-         
-     
+- 📋 **Ítems**:
+  - Lista detallada de cada ítem en el tipo de gasto correspondiente
+  - Ordenados de mayor a menor según el saldo más relevante
 
-Dependencias  
+Cada tipo de gasto aparece en una hoja independiente del Excel generado.
 
-Para instalar todas las dependencias necesarias, ejecuta: 
+---
+
+## 🧰 Requisitos y Dependencias
+
+### ✅ Requisitos:
+- Python 3.6 o superior
+- Librerías:
+  - `pandas`
+  - `xlsxwriter` (o `openpyxl` como alternativa)
+
+### 📦 Instalación rápida:
+```bash
 pip install pandas xlsxwriter
+```
 
+---
 
-🙌 Créditos 
+## 🙌 Créditos
 
-Este proyecto fue desarrollado por Maximiliano Bertta Borges como parte de la prueba técnica para Migliaro. Si tienes preguntas o sugerencias, no dudes en contactarme. 
+Este proyecto fue desarrollado por **Maximiliano Bertta Borges** como parte de la prueba técnica para **Migliaro**.
+
+📬 *¿Preguntas o sugerencias? No dudes en contactarme.*
+
+---
