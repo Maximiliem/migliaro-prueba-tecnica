@@ -25,10 +25,7 @@ El proyecto analiza un archivo Excel que contiene información sobre:
 - Agrupados por **rubros** y **categorías** (ej: Ingresos, Gastos Ganaderos, Gastos Agrícolas, etc.)
 
 ### 📌 Qué se genera:
-- Totales de saldos por categoría
-- Listado ordenado de ítems por impacto financiero
-
-Esto permite **identificar rápidamente** los rubros más importantes y **facilita la toma de decisiones contables**.
+- Un archivo .csv para poder manejar los datos de mejor manera en algún dashboard interactivo como pueda ser Tableau, Google Looker Studio, Power BI, entre otras herramientas posibles de análisis de datos.
 
 ---
 
@@ -39,10 +36,9 @@ migliaro-prueba-tecnica/
 │
 ├── app.py                         # Script principal: orquesta todo el proceso.
 ├── analisis.py                    # Funciones para procesar y analizar los datos.
-├── tableros.py                    # Funciones para generar tableros/tablas.
 ├── data/                          # Carpeta para datos de entrada y salida.
 │   ├── Balancete Maxi Bertta.xlsx       # Archivo Excel original.
-│   └── Tableros_por_Tipo_Gasto.xlsx     # Resultado procesado.
+│   └── Balancete_Maxi_Bertta_limpio.csv     # Resultado procesado.
 └── README.md                      # Documentación del proyecto.
 ```
 
@@ -68,22 +64,13 @@ Guarda el archivo `Balancete Maxi Bertta.xlsx` en la carpeta `/data`.
 python app.py
 ```
 
-Esto generará un archivo Excel llamado `Tableros_por_Tipo_Gasto.xlsx` dentro de la carpeta `/data`.
+Esto generará un archivo CSV llamado `Balancete_Maxi_Bertta_limpio.csv` dentro de la carpeta `/data`.
 
 ---
 
 ## 📈 Resultados Generados
 
-El archivo `Tableros_por_Tipo_Gasto.xlsx` contiene:
-
-- 🧮 **Totales**:
-  - Resumen de saldos deudores y acreedores (M/N y U$S)
-
-- 📋 **Ítems**:
-  - Lista detallada de cada ítem en el tipo de gasto correspondiente
-  - Ordenados de mayor a menor según el saldo más relevante
-
-Cada tipo de gasto aparece en una hoja independiente del Excel generado.
+El archivo `Balancete_Maxi_Bertta_limpio.csv` contiene los datos del Excel pero en formato .csv.
 
 ---
 
