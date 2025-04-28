@@ -1,0 +1,110 @@
+RUBRO,NOMBRE,SALDO DEUDOR M/N,SALDO ACREEDOR M/N,SALDO DEUDOR U$S,SALDO ACREEDOR U$S,T. de C.,Tipo de Gasto
+411101.0,Ventas Vacunos,,44318882.53,,1142446.11,38.7929,Ingresos
+411102.0,Venta de Lanares,,4502483.28,,113570.31,39.6448,Ingresos
+411104.0,Venta de Embriones,,496079.8,,12800.0,38.7562,Ingresos
+411212.0,Venta de Cueros Lanares,,1299.39,,33.9,38.33,Ingresos
+411214.0,Venta de pajuela de semen,,43189.3,,1106.0,39.05,Ingresos
+413101.0,Vacunos - Nacimientos,,36887401.17,,922438.7,39.9889,Ingresos
+413102.0,Vacunos - Acrecimientos,,27363523.36,,684276.26,39.9889,Ingresos
+413193.0,Vacunos - Diferenica de Precio,,29621931.13,,470014.28,63.0234,Ingresos
+413301.0,Ovinos - Nacimientos,,1709529.75,,42750.0,39.989,Ingresos
+413302.0,Ovinos - Acrecimientos,,1570368.03,,39270.0,39.989,Ingresos
+413392.0,Ovinos - Dif. de Precio,,680643.57,6880.12,,,Ingresos
+413501.0,Equinos - Nacimientos,,359901.0,,9000.0,39.989,Ingresos
+413593.0,Equinos - Dif. de Precio,,136793.0,,,,Ingresos
+48107.0,Descuentos Obtenidos,,530983.17,,13659.71,38.8722,Ingresos
+48303.0,Dif. de Cambio Gan. - General,,1686699.84,,,,Ingresos
+49101.0,Ventas de Activo Fijo,,1098713.3,,28688.53,38.2979,Ingresos
+511101.0,Costo de Ventas - Vacunos,42267948.32,,1056989.38,,39.989,Gastos Ganaderos
+511102.0,Muertes - Vacunos,4261107.87,,106557.0,,39.9889,Gastos Ganaderos
+511111.0,Costo de Ventas - Lanares,3759565.84,,94015.0,,39.989,Gastos Ganaderos
+511112.0,Muertes - Lanares,803179.07,,20085.0,,39.989,Gastos Ganaderos
+513101.0,G - Sueldos y Jornales,4676064.66,,120829.67,,38.6996,Gastos Ganaderos
+513102.0,G - Aguinaldo,484073.14,,12233.62,,39.569,Gastos Ganaderos
+513104.0,G - Vivienda y Alimentacion,753143.5,,19457.17,,38.7077,Gastos Ganaderos
+513106.0,G - Licencia y Sal. Vacacional,636148.38,,15618.08,,40.7315,Gastos Ganaderos
+513107.0,G - Dto. Viv. y Alimentacion,,599321.45,,15484.18,38.7054,Gastos Ganaderos
+513111.0,G - Cargas Sociales,390259.52,,10081.59,,38.7101,Gastos Ganaderos
+513121.0,G - Manutención,1684811.12,,42735.42,,39.4242,Gastos Ganaderos
+513131.0,G - Honorarios Profesionales,382483.62,,9898.0,,38.6425,Gastos Ganaderos
+513201.0,G - Sanidad Vacunos,1203357.8,,31211.91,,38.5544,Gastos Ganaderos
+513202.0,G - Sanidad Lanares,25855.4,,667.55,,38.7317,Gastos Ganaderos
+513203.0,G - Remedios para Baños,8344.85,,214.73,,38.862,Gastos Ganaderos
+513204.0,G - Sales Minerales,201453.64,,5062.59,,39.7926,Gastos Ganaderos
+513205.0,G - Antibióticos,126658.91,,3243.84,,39.0459,Gastos Ganaderos
+513206.0,G - Inseminacion,1588767.2,,40577.89,,39.1535,Gastos Ganaderos
+513219.0,G - Aplicaciones Varias,57821.3,,1487.13,,38.8811,Gastos Ganaderos
+513301.0,G - Herbicidas,24059.82,,620.58,,38.7698,Gastos Ganaderos
+513302.0,G - Fertilizantes,54928.21,,1404.13,,39.119,Gastos Ganaderos
+513303.0,G - Semillas,22083.42,,571.13,,38.6661,Gastos Ganaderos
+513304.0,G - Específicos,182266.26,,4677.49,,38.9666,Gastos Ganaderos
+513331.0,G - Raciones Ganaderas,1732862.57,,44206.92,,39.1988,Gastos Ganaderos
+513399.0,G - Praderas y Comidas - Varia,3949.03,,99.4,,39.7286,Gastos Ganaderos
+513501.0,G - Rep. y Mant. - Maquinaria,1286525.7,,33151.11,,38.8079,Gastos Ganaderos
+513502.0,G - Rep. y Mant. - Alambrados,378678.83,,9811.36,,38.5959,Gastos Ganaderos
+513505.0,G - Rep. y Mant.  Alm. M.Prima,762.0,,19.07,,39.958,Gastos Ganaderos
+513509.0,G - Rep. y Mant. - Varias,1516547.88,,39224.9,,38.6628,Gastos Ganaderos
+513901.0,G - Combustibles y Lubricantes,105641.58,,2743.53,,38.5057,Gastos Ganaderos
+513902.0,G - Fletes no comerciales,1355420.18,,34646.44,,39.1214,Gastos Ganaderos
+513903.0,G - Seguros,541180.73,,13871.13,,39.0148,Gastos Ganaderos
+513905.0,G - Arrendamientos y Pastoreos,11659440.37,,291566.19,,39.9889,Gastos Ganaderos
+513907.0,G - Esquila,372288.0,,9540.46,,39.022,Gastos Ganaderos
+513908.0,G - Caravanas,7520.06,,193.53,,38.8573,Gastos Ganaderos
+513910.0,G - Energía Eléctrica,317525.96,,8239.66,,38.5362,Gastos Ganaderos
+513911.0,G - Comunicaciones,193655.02,,5003.83,,38.7013,Gastos Ganaderos
+513912.0,G - Gas Oil,2717252.9,,70108.06,,38.758,Gastos Ganaderos
+513960.0,G - Amortizaciones,8640870.27,,216081.18,,39.9889,Gastos Ganaderos
+513970.0,G - Servicios de Terceros,559522.06,,14395.57,,38.8676,Gastos Ganaderos
+513999.0,G - Gtos. Varios de Producción,1875419.62,,48568.71,,38.6137,Gastos Ganaderos
+531101.0,A - Costo de lo Vendido,6868108.7,,171749.95,,39.9889,gastos Agricolas
+533121.0,A - Manutenciòn,52623.89,,1340.3,,39.2627,gastos Agricolas
+533301.0,A - Herbicidas,1540806.91,,39744.86,,38.7674,gastos Agricolas
+533302.0,A - Fertilizantes,3108354.16,,79631.38,,39.0342,gastos Agricolas
+533303.0,A - Semillas,3633992.01,,92907.6,,39.114,gastos Agricolas
+533316.0,A - Fungicidas/Insecticidas,105652.86,,2700.62,,39.1217,gastos Agricolas
+533399.0,A - Insumos Varios,7667.32,,199.3,,38.4712,gastos Agricolas
+533503.0,A - Rep. y Mant.- Alambrados,160.0,,4.2,,38.0952,gastos Agricolas
+533504.0,A - Rep. y Mant.- Vehiculos,25532.79,,639.09,,39.9517,gastos Agricolas
+533599.0,A - Rep. y Mant.- Varias,211.56,,6.02,,35.1428,gastos Agricolas
+533910.0,A - Energía Eléctrica,9347.81,,245.06,,38.1449,gastos Agricolas
+561102.0,Adicional Imeba,167833.48,,4329.66,,38.7636,
+561103.0,Iva Perdido,220555.0,,5895.93,,37.408,
+561104.0,"TCF+TFA - U$S 3,50 p/animal",82429.67,,2117.6,,38.9259,
+561105.0,"SCB - U$S 0,26 p/vaca o vaq.+2",36700.45,,943.14,,38.913,
+561299.0,Otros Impuestos Municipales,2738.83,,72.59,,37.7301,
+562101.0,Comisiones de Compra,59112.93,,1505.69,,39.2596,
+562151.0,Comisiones de Venta,503892.14,,13045.51,,38.6257,
+5693.0,Gastos de Certificados,48107.82,,1249.48,,38.5022,
+5694.0,Gastos Remate,50656.39,,1299.57,,38.9793,
+5699.0,Otros Gastos de Com.Haciendas,115954.7,,3022.59,,38.3626,
+571121.0,ADM - Manutención,3663.94,,96.55,,37.9486,gastos Administracion
+571131.0,ADM - Honorarios Profesionales,602076.45,,15550.0,,38.7187,gastos Administracion
+571501.0,ADM - Rep.y Mant.-Vehículos,569628.99,,14712.91,,38.7162,gastos Administracion
+571502.0,ADM - Rep.y Mant.- M. y Utiles,2251.64,,59.18,,38.0473,gastos Administracion
+571509.0,ADM - Alajamiento Casa,192941.36,,5034.04,,38.3273,gastos Administracion
+571599.0,ADM - Rep.y Mant.- Generales,6679.47,,170.17,,39.2517,gastos Administracion
+571701.0,Impuesto al Patrimonio,196322.0,,4909.4,,39.989,gastos Administracion
+571702.0,IRAE,4257.0,,106.46,,39.9868,gastos Administracion
+571705.0,Impuesto de Primaria,450420.0,,11466.52,,39.2813,gastos Administracion
+571711.0,Contribuciòn Inmobiliaria,1831229.0,,46908.96,,39.0379,gastos Administracion
+571712.0,Patentes de Vehículos,235015.0,,5982.62,,39.2829,gastos Administracion
+571719.0,Otros Impuestos Municipales,8453.6,,215.4,,39.246,gastos Administracion
+571901.0,ADM - Energìa Elèctrica,354121.52,,9093.69,,38.9414,gastos Administracion
+571902.0,ADM - Comunicaciones,126600.62,,3253.29,,38.9146,gastos Administracion
+571903.0,ADM - Papelería y Utiles,33519.07,,861.25,,38.919,gastos Administracion
+571904.0,ADM - Computaciòn,13179.08,,330.54,,39.8713,gastos Administracion
+571905.0,ADM - Seguros,63016.14,,1655.83,,38.0571,gastos Administracion
+571906.0,ADM - Correspondencia,29786.84,,769.72,,38.6982,gastos Administracion
+571911.0,ADM - Combustible y Locomoción,197466.59,,5084.11,,38.8399,gastos Administracion
+571912.0,ADM - Gastos de Viaje/Estadia,20715.58,,538.82,,38.4461,gastos Administracion
+571913.0,ADM - Multas y Recargos,12729.37,,334.33,,38.0742,gastos Administracion
+571935.0,ADM - Gastos de Publicidad,2140.0,,55.86,,38.31,gastos Administracion
+571998.0,ADM - No Deducible,120065.19,,3191.42,,37.6212,gastos Administracion
+571999.0,ADM - Gastos Generales,164961.75,,4184.08,,39.426,gastos Administracion
+579101.0,Intereses Bancarios Perdidos,966323.71,,24710.45,,39.1058,gastos Administracion
+579901.0,Diferencia de Cambio Perdida,,541920.52,,,,gastos Administracion
+579991.0,Diferencia de Traducciòn,,,,29.25,,gastos Administracion
+579993.0,Resultados de Traducción,,,115358.02,,,gastos Administracion
+5911.0,Costo de Ventas Activo Fijo,1103223.79,,28806.31,,38.2979,gastos Administracion
+5981.0,Gastos Particulares,487604.48,,12570.47,,38.7896,gastos Administracion
+5991.0,Ajuste por Redondeo,7675.85,,190.37,,40.3206,gastos Administracion
