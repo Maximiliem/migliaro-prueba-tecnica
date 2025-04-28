@@ -37,7 +37,7 @@ migliaro-prueba-tecnica/
 ├── app.py                         # Script principal: orquesta todo el proceso.
 ├── analisis.py                    # Funciones para procesar y analizar los datos.
 ├── data/                          # Carpeta para datos de entrada y salida.
-│   ├── Balancete Maxi Bertta.xlsx       # Archivo Excel original.
+│   ├── Balancete Maxi Bertta.xlsx           # Archivo Excel original.
 │   └── Balancete_Maxi_Bertta_limpio.csv     # Resultado procesado.
 └── README.md                      # Documentación del proyecto.
 ```
